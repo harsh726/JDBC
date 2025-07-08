@@ -23,7 +23,7 @@ public class JDBC_Demo{
 		String password = "2424";
 		String queryWholeTable = "select * from student";
 		String queryUserNameColumn = "select userName from student where userID = 1";
-		String queryInsertSingleRecord = "insert into student values (4, 'Nidhi')";
+		String queryInsertSingleRecord = "insert into student values (4, 'Lay')";
 		try {
 			// STEP 2: Load Driver
 			Class.forName("com.mysql.cj.jdbc.Driver");
